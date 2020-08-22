@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/CSS" href="css/trms.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link href="javascript/navbar.js" />
+    <title>Tuition Reimbursement - Very Good Company</title>
+    <link rel="icon" href="images/Coins.svg" type="svg" >
+
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <span>
+          <h1><b>VERY GOOD COMPANY</b></h1> </span>
+      </div>
+      <!-- NAV BAR -->
+      <div class="container" style="padding: 0px;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="landing.html">VERY GOOD COMPANY TRMS</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="true"
+                >
+                  My Dashboard
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-item dropdown-item" href="newrequest.html"
+                    >Submit new request</a
+                  >
+                  <a class="nav-item dropdown-item" href="myrequests.html">My Requests</a>
+                  <a class="nav-item dropdown-item" href="myawards.html">My Awards</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="superdash.html">Supervisor Portal</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Uploads</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Account
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="nav-item dropdown-item" href="#">Action</a>
+                  <a class="nav-item dropdown-item" href="superdash.html"
+                    >Switch to Supervisor Mode</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a class="nav-item dropdown-item" onclick="logout()">Logout</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div> <!-- NAVBAR end -->
+
+      <!-- Page content to display-->
+      <div class="container" id="itemdisplay">
+        <h4 style = "color: whitesmoke"> New Reimbursement Request </h4>
+        <table class = "table table-bordered table-dark" style="background-color: #343a409c;">
+            <tr> <th colspan="2"> EVENT INFORMATION</th></tr>
+            <tr>
+                <td>Event name: </td> <td> <input type ="text" required="required" id = "ename" /></td>
+            </tr>
+            <tr>
+                <td>Description: </td> <td> <input type ="text" id = "description"/></td>
+            </tr>
+            <tr>
+                <td>Location: </td> <td> <input type ="text" id = "location"/></td>
+            </tr>
+            <tr>
+                <td>Category: </td> 
+                <td> <select id = "category">
+                    <option value = "100">Certification (100%) </option>
+                    <option value = "90">Technical Training (90%) </option>
+                    <option value = "80">University Course (80%)</option>
+                    <option value = "75">Certification Preparation Class (75%)</option>
+                    <option value = "60">Seminar (60%)</option>
+                    <option value = "30">Other (30%)</option>
+                </select> </td>
+            </tr>
+            <tr>
+              <td>Number of work hours: </td> <td> <input type ="number" id = "employeetime" /></td>
+            </tr>
+            <tr>
+              <td>Event Time Start: </td> <td> <input type ="time" id="eventTime"/></td>
+            </tr>
+            <tr>
+              <td>Event Date: </td> <td> <input type ="date" id="eventDate"/></td>
+            </tr>
+            <tr>
+              <td>Reimbursement amount: </td> <td style="padding-left: 2px;"> $<input type ="number" min="0.01" step="0.01" max="1000" id = "value"/> </td>
+            </tr>
+            <tr>
+              <td> Upload File: </td> <td> <input type = "file" id = "upload"> </td> 
+            </tr>
+            <tr>
+              <td colspan="2"> <input type = "button" id = "submitreq" class= "btn btn-outline-primary btn-lg btn-block" value="Submit request" onclick="submitreq()">  </td> 
+            </tr>
+            <div class="alert alert-success" role="alert" id = "successalert" style="display :none">
+              Submission Successful! 
+              Contact your supervisor for further information. You can check your pending requests under "My Requests".
+            </div>
+ 
+      </div>
+      
+
+
+    </header>
+    <!-- <div class="container" style="background-color: rgba(32, 31, 31, 0.473); margin: auto; height: 400px;">
+
+
+    </div> -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <script>
+    // AJAX to populate some of the page with user details
+    function submitreq() {
+
+      // New req object
+      let xhttp = new XMLHttpRequest();
+
+      // Define a function
+      xhttp.onreadystatechange = function () {
+        console.log(xhttp.readyState);
+        console.log(xhttp.status);
+        if (xhttp.readyState == 4 && xhttp.status == 200) {
+          // Making sure we're still returning a JSON from the established session.
+          // window.location.href = "myrequests.html";
+          console.log("Event sent and saved.")
+
+
+          let xhttp2 = new XMLHttpRequest();
+          xhttp2.onreadystatechange = function (){
+
+            if(xhttp2.readyState == 4 && xhttp2.status == 200){
+              console.log("Req value sent and created.")
+              document.getElementById("successalert").style.display = "block";
+
+            }
+
+          }
+
+          xhttp2.open("POST", "http://localhost:8080/Project1-TuitionReimbursement/submitrequest.do", true);
+          xhttp2.setRequestHeader("Content-Type", "application/json");
+          // REQUEST JSON
+          let req = {
+            value : document.getElementById("value").value
+          }
+          xhttp2.send(JSON.stringify(req));
+
+
+        }
+      };
+
+      // open request.
+      xhttp.open(
+        "POST",
+        "http://localhost:8080/Project1-TuitionReimbursement/submitevent.do",
+        true
+      );
+      xhttp.setRequestHeader("Content-Type", "application/json");
+      // EVENT JSON
+      let event = {
+        name : document.getElementById("ename").value,
+        description : document.getElementById("description").value,
+        location : document.getElementById("location").value,
+        category : document.getElementById("category").value,
+        employeetime : document.getElementById("employeetime").value,
+        eventTime : document.getElementById("eventTime").value,
+        eventDate : document.getElementById("eventDate").value
+
+      }
+      
+      
+      console.log(event);
+     
+      // Jfather is already an object.
+      // let jfatherofjsons = [req, event];
+      
+
+      // send request
+      xhttp.send(JSON.stringify(event));
+    }
+
+
+    function logout(){
+      xhttp = new XMLHttpRequest();
+       
+      xhttp.onreadystatechange = function (){
+        if(xhttp.readyState == 4 && xhttp.status ==200){
+          console.log("user logged out");
+          window.location.href = "index.html";
+
+        }
+      }
+
+      xhttp.open("GET", "http://localhost:8080/Project1-TuitionReimbursement/logout.do", true);
+
+
+      xhttp.send();
+    }
+  </script>
+</html>

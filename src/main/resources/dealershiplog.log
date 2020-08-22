@@ -1,0 +1,118 @@
+INFO  | 2020-08-14 09:27:18 | [main] utility.JDBCConnection (JDBCConnection.java:32) - CONNECTION TO DB SUCCESS
+INFO  | 2020-08-14 09:27:18 | [main] service.UserLoginServiceImpl (UserLoginServiceImpl.java:39) - SERVICE
+INFO  | 2020-08-14 09:27:18 | [main] service.UserLoginServiceImpl (UserLoginServiceImpl.java:21) - SERVICE
+INFO  | 2020-08-14 09:27:18 | [main] service.UserLoginServiceImpl (UserLoginServiceImpl.java:14) - SERVICE
+INFO  | 2020-08-14 09:27:18 | [main] service.UserLoginServiceImpl (UserLoginServiceImpl.java:33) - SERVICE
+INFO  | 2020-08-14 09:27:18 | [main] service.UserLoginServiceImpl (UserLoginServiceImpl.java:45) - SERVICE
+INFO  | 2020-08-14 09:27:18 | [main] service.UserLoginServiceImpl (UserLoginServiceImpl.java:27) - SERVICE
+INFO  | 2020-08-14 09:27:18 | [main] utility.JDBCConnection (JDBCConnection.java:32) - CONNECTION TO DB SUCCESS
+INFO  | 2020-08-14 09:27:19 | [main] utility.JDBCConnection (JDBCConnection.java:32) - CONNECTION TO DB SUCCESS
+INFO  | 2020-08-14 09:27:19 | [main] utility.JDBCConnection (JDBCConnection.java:32) - CONNECTION TO DB SUCCESS
+INFO  | 2020-08-14 09:27:19 | [main] service.RequestServiceImpl (RequestServiceImpl.java:39) - SERVICE LAYER: GET MY REQUESTS
+INFO  | 2020-08-14 09:27:19 | [main] service.RequestServiceImpl (RequestServiceImpl.java:45) - SERVICE LAYER: EMPLOYEE REQUESTS
+INFO  | 2020-08-14 09:27:19 | [main] service.RequestServiceImpl (RequestServiceImpl.java:62) - SERVICE LAYER: DENY REQUEST
+INFO  | 2020-08-14 09:27:19 | [main] service.RequestServiceImpl (RequestServiceImpl.java:33) - SERVICE LAYER: GETTING A REQUEST
+INFO  | 2020-08-14 09:27:19 | [main] service.RequestServiceImpl (RequestServiceImpl.java:51) - SERVICE LAYER: CREATE REQUEST
+INFO  | 2020-08-14 09:27:19 | [main] service.RequestServiceImpl (RequestServiceImpl.java:70) - SERVICE LAYER: SUPERVISOR APPROVAL
+INFO  | 2020-08-14 09:27:19 | [main] DAO.DepartmentDAOImpl (DepartmentDAOImpl.java:54) - DAO: Department
+INFO  | 2020-08-14 09:27:19 | [main] service.RequestServiceImpl (RequestServiceImpl.java:77) - DEPARTMENT HEAD ID: 1002
+INFO  | 2020-08-14 09:27:19 | [main] service.RequestServiceImpl (RequestServiceImpl.java:80) - [SERVICE] BENCO APPROVAL
+INFO  | 2020-08-14 09:27:19 | [main] service.RequestServiceImpl (RequestServiceImpl.java:70) - SERVICE LAYER: SUPERVISOR APPROVAL
+INFO  | 2020-08-14 09:27:19 | [main] DAO.DepartmentDAOImpl (DepartmentDAOImpl.java:54) - DAO: Department
+INFO  | 2020-08-14 09:27:20 | [main] service.RequestServiceImpl (RequestServiceImpl.java:77) - DEPARTMENT HEAD ID: 1001
+INFO  | 2020-08-14 09:27:20 | [main] service.RequestServiceImpl (RequestServiceImpl.java:100) - [SERVICE] HEAD APPROVAL
+INFO  | 2020-08-14 09:27:20 | [main] service.RequestServiceImpl (RequestServiceImpl.java:70) - SERVICE LAYER: SUPERVISOR APPROVAL
+INFO  | 2020-08-14 09:27:20 | [main] DAO.DepartmentDAOImpl (DepartmentDAOImpl.java:54) - DAO: Department
+INFO  | 2020-08-14 09:27:20 | [main] service.RequestServiceImpl (RequestServiceImpl.java:77) - DEPARTMENT HEAD ID: 1001
+INFO  | 2020-08-14 09:27:20 | [main] service.RequestServiceImpl (RequestServiceImpl.java:112) - [SERVICE] SUPER APPROVAL
+INFO  | 2020-08-14 09:27:20 | [main] service.RequestServiceImpl (RequestServiceImpl.java:27) - SERVICE LAYER: GETTING A REQUEST BY RID: 8
+INFO  | 2020-08-14 09:27:20 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:26) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:44) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:51) - LOGIN SUCCESS
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:90) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:25) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:44) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:121) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:26) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:44) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:51) - LOGIN SUCCESS
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:90) - DAO
+ERROR | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:111) - DID NOT CREATE AWARD
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:68) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:121) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:25) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:26) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:44) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:51) - LOGIN SUCCESS
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:140) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.AwardDAOImpl (AwardDAOImpl.java:140) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:26) - DAO
+INFO  | 2020-08-14 09:27:20 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:240) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] utility.JDBCConnection (JDBCConnection.java:32) - CONNECTION TO DB SUCCESS
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:142) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:161) - SUCCESSFUL CREATION OF REQUEST
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:240) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:44) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:51) - LOGIN SUCCESS
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAOTests.RequestDAOTests (RequestDAOTests.java:126) - Request [rid=168, uid=1000, eid=10167, value=9001]
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:176) - DAO: SUPER APPROVE
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:180) - S:APPROVE for R_ID:168 NEXT TO APPROVE: SUPERVISOR
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:44) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:51) - LOGIN SUCCESS
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:197) - DAO: HEAD APROVE
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:202) - S:APPROVE for R_ID:168 NEXT TO APPROVE: BENCO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:218) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:48) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:262) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:71) - RETRIEVING REQUESTS FOR USER ID: 1000
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:81) - SUCCESS
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:81) - SUCCESS
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:142) - DAO
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:168) - CREATION FAIL
+INFO  | 2020-08-14 09:27:21 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:26) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:26) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:71) - RETRIEVING REQUESTS FOR USER ID: 99999
+INFO  | 2020-08-14 09:27:22 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:99) - RETRIEVING REQUESTS FOR USER ID: 1000
+INFO  | 2020-08-14 09:27:22 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:112) - SUCCESS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:112) - SUCCESS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.RequestDAOImpl (RequestDAOImpl.java:112) - SUCCESS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:21) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:29) - LOGIN SUCCESS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:148) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:155) - USER WITH ID: 1086DELETED
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:96) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:112) - USER WITH ID: 0HAS BEEN CREATED
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:96) - DAO
+ERROR | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:116) - CREATION FAILED
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:21) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:29) - LOGIN SUCCESS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:126) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:134) - USER WITH ID: 1088DELETED
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:66) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:75) - GETTING ALL USERS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:75) - GETTING ALL USERS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:75) - GETTING ALL USERS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:75) - GETTING ALL USERS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:75) - GETTING ALL USERS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:75) - GETTING ALL USERS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:75) - GETTING ALL USERS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:21) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:29) - LOGIN SUCCESS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:44) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:51) - LOGIN SUCCESS
+INFO  | 2020-08-14 09:27:22 | [main] DAO.UserLoginDAOImpl (UserLoginDAOImpl.java:21) - DAO
+INFO  | 2020-08-14 09:27:22 | [main] controller.UserController (UserController.java:56) - CONTROLLER
+INFO  | 2020-08-14 09:27:22 | [main] controller.RequestController (RequestController.java:27) - REQUEST CONTROLLER
+INFO  | 2020-08-14 09:27:22 | [main] controller.RequestController (RequestController.java:67) - REQUEST CONTROLLER
+INFO  | 2020-08-14 09:27:22 | [main] servlets.RequestHelper (RequestHelper.java:20) - REQUEST HELPER: SWITCH
+INFO  | 2020-08-14 09:27:22 | [main] servlets.RequestHelper (RequestHelper.java:42) - REQUESTHELPER: GET ALL REQUESTS
+INFO  | 2020-08-14 09:27:22 | [main] controller.RequestController (RequestController.java:67) - REQUEST CONTROLLER
+INFO  | 2020-08-14 09:27:22 | [main] controller.UserController (UserController.java:25) - CONTROLLER
+INFO  | 2020-08-14 09:27:22 | [main] servlets.RequestHelper (RequestHelper.java:20) - REQUEST HELPER: SWITCH
+INFO  | 2020-08-14 09:27:22 | [main] servlets.RequestHelper (RequestHelper.java:26) - RequestHelper
+INFO  | 2020-08-14 09:27:22 | [main] controller.UserController (UserController.java:25) - CONTROLLER
