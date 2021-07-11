@@ -10,7 +10,7 @@ Technologies:
 
 * Java for Backend
 * HTML/CSS/JavaScript on the Frontend
-* PL/SQL
+* Oracle
 * Servlets
 * JDBC
 * AJAX
