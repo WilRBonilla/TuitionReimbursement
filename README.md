@@ -6,6 +6,8 @@ submit a from to request reimbursement. It allows supervisors to login and
 approve or deny reimbursements with a final approval coming from a designated
 benefits coordinator. 
 
+Front end code: src/main/webapp/
+
 Technologies:
 
 * Java for Backend
